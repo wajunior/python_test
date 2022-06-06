@@ -70,4 +70,4 @@ print('Salário bruto: R$ {:.2f}\n'
       '\033[1;32m==========================================\033[m'.format(salarioBruto, descontos, dependentes, inss,
                                                                           irrf, (inss + irrf + descontos),
                                                                           salarioLiquido))
-print('\n\n\nFeito por: Wilson Junior')
+
