@@ -4,6 +4,7 @@ while opc:
     n = int(input('Informe o numero que gostaria de fatorar: '))
     mult = n
 
+    print('{}!'.format(n), end=' = ')
     if n < 0 or n > 16:
         print('Favor informar um numero correto!')
     else:
