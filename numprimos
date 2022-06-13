@@ -1,0 +1,10 @@
+num = int(input('Informe um numero: '))
+primo = 0
+cont = 0
+lista = []
+
+for c in range(1, num+1):
+    lista.append(c)
+
+print(lista)
+
