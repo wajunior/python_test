@@ -1,10 +1,17 @@
 num = int(input('Informe um numero: '))
+n = []
 primo = 0
-cont = 0
 lista = []
+for c in range(1, num + 1):
+    n.append(c)
+for j in range(1, len(n)+1):
+    for i in range(1, j+1):
+        if i % j == 0:
+            lista.append(j)
+        else:
+            print(f'{j}/{i} não é div')
 
-for c in range(1, num+1):
-    lista.append(c)
+
 
 print(lista)
 
